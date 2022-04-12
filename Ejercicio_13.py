@@ -1,0 +1,20 @@
+#Entradas
+dinero=float(input("Ingrese la cantidad de dinero en el banco: "))
+#Caja negra
+n1=round(dinero/50000, 4)
+n2=round(dinero/20000, 4)
+n3=round(dinero/10000, 4)
+n4=round(dinero/5000, 4)
+n5=round(dinero/2000, 4)
+n6=round(dinero/1000, 4)
+n7=round(dinero/500, 4)
+n8=round(dinero/100, 4)
+#salidas
+print("La cantidad de billites de 50000 son: ", n1)
+print("La cantidad de billites de 20000 son: ", n2)
+print("La cantidad de billites de 10000 son: ", n3)
+print("La cantidad de billites de 5000 son: ", n4)
+print("La cantidad de billites de 2000 son: ", n5)
+print("La cantidad de billites de 1000 son: ", n6)
+print("La cantidad de billites de 500 son: ", n7)
+print("La cantidad de billites de 100 son: ", n8)
